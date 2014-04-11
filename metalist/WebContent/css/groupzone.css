@@ -1,0 +1,497 @@
+html,body {
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+}
+
+.maincontainer {
+	width: 100%;
+	height: auto;
+	background-image: url("/metalist/img/back.png");
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	border-bottom: 1px solid #36a4c9;
+}
+
+.logo {
+	margin-left: 100px;
+	width: 166px;
+	height: 95px;
+	border: 0px solid black;
+	float: left;
+}
+
+/* .head {
+	width: 830px;
+	height: 100px;
+	border: 0px solid black;
+	float: left;
+	padding-top: 10px;
+}
+ */
+.menu {
+	width: 520px;
+	height: 80px;
+	background-color:;
+	border: 0px solid black;
+	border-radius: 10px;
+	float: left;
+	margin-left: 145px;
+}
+
+.menu ul {
+	width: 520px;
+	height: 50px;
+}
+
+.menu ul li {
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	margin-right: 15px;
+	float: left;
+	list-style: none;
+	padding-top: 10px;
+	border-radius: 10px;
+	background-color: #1b4f88;
+	border: 0px solid black;
+}
+
+.menu ul li a {
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	font: bold;
+	text-decoration: none;
+}
+
+.menu ul li:hover {
+	border-radius: 50px;
+	background-color: #33ADFF;
+	border: 0px solid #0029A3;
+}
+
+.uname {
+	width: auto;
+	height: auto;
+	border: 0px solid black;
+	float: left;
+	padding-left: 50px;
+	padding-top: 30px;
+}
+
+.container {
+	width: 100%;
+	padding-top: 10px;
+	height: 1200px;
+	background-image: url("/metalist/img/back.png");
+}
+
+.leftcontainer {
+	width: 19%;
+	height: 800px;
+	border-right: 0px solid black;
+	float: left;
+}
+
+.rightcontainer {
+	width: 19%;
+	height: 800px;
+	border-left: 0px solid black;
+	float: left;
+}
+
+.middlecontainer {
+	width: 60%;
+	height: 1500px;
+	border: 0px solid black;
+	float: left;
+	background: white;
+}
+
+.profilepic {
+	width: 220px;
+	margin-left: 20px;
+	padding-top: 5px;
+	height: 220px;
+	background: #36a9c8;
+	border: 1px solid black;
+}
+
+.profilepic2 {
+	width: 210px;
+	margin: auto;
+	height: 210px;
+	background: white;
+	padding-bottom: 5px;
+	border: 1px solid black;
+}
+
+.search {
+	width: 350px;
+	height: 35px;
+	background-color:;
+	border-radius: 0px;
+	border: 2px solid #FF8D8D;
+	margin-left: 185px;
+	margin-top: 20px;
+	float: left;
+}
+
+.searchimg {
+	width: 100px;
+	height: 40px;
+	margin-top: 20px;
+	float: left;
+}
+
+.button {
+	width: 220px;
+	margin-left: 20px;
+	margin-top: 30px;
+	height: 32px;
+	text-decoration: none;
+	border-radius: 14px;
+	border: 3px solid #d0d0d0;
+	background-color: #36a9c8;
+}
+
+.button1 {
+	width: 220px;
+	margin-left: 20px;
+	margin-top: 3px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 14px;
+	text-decoration: none;
+	border: 3px solid #d0d0d0;
+	background-color: #36a9c8;
+}
+
+.button2 {
+	width: 250px;
+	margin-left: 20px;
+	margin-top: 3px;
+	height: 35px;
+	border-radius: 14px;
+	text-decoration: none;
+	border: 3px solid #d0d0d0;
+	background-color: #36a9c8;
+}
+
+.searchdiv {
+	width: 810px;
+	height: 80px;
+	margin-top: 0px;
+	border-bottom: 0px solid black;
+	background: white;
+}
+
+#h3tag {
+	text-align: center;
+	margin-top: 4px;
+	font-family: Monotype corsiva;
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.button1:hover {
+	background-color: #ef539d;
+}
+
+.button2:hover {
+	background-color: #ef539d;
+}
+
+.button:hover {
+	background-color: #ef539d;
+}
+
+.activity {
+	width: 700px;
+	height: auto;
+	margin-top: 7px;
+	margin-left: 50px;
+	background: #e6e6e6;
+	border: 1px solid #e6e6e6;
+	border-radius: 20px;
+}
+
+.title {
+	width:350px;
+	height: 40px;
+	border: 1px solid #e6e6e6;
+	margin-top: 25px;
+	margin-left: 10px;
+	background-color: #ef539d;
+	border-radius: 13px;
+}
+
+.heading {
+	width: 350px;
+	height: 40px;
+	border: 1px solid #e6e6e6;
+	margin-top: 25px;
+	margin-left: 10px;
+	background-color: #36a9c8;
+	border-radius: 13px;
+}
+
+.suggest {
+	width: 250px;
+	height: 350px;
+	overflow: hidden;
+	border: 3px solid #ef539d;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 20px;
+	background: white;
+}
+
+.description {
+	width: 330px;
+	height: 100px;
+	border: 1px solid #ef539d;
+	border-radius: 14px;
+	background: #e6e6e6;
+	outline:none;
+	margin-left: 20px;
+}
+
+.date {
+	width: 300px;
+	height: 60px;
+	border: 0px solid black;
+}
+
+.sdate {
+	width: 100px;
+	border: 0px solid black;
+	float: left;
+	padding-top: 15px;
+	padding-left: 25px;
+}
+
+.text {
+	width: 170px;
+	height: 30px;
+	border: 0px solid black;
+	float: left;
+	padding-top: 30px;
+}
+
+.edate {
+	width: 100px;
+	height: 40px;
+	border: 0px solid black;
+	float: left;
+	margin-left: -100px;
+}
+
+.text1 {
+	width: 170px;
+	height: 30px;
+	border: 0px solid black;
+	float: left;
+	padding-top: 15px;
+}
+
+.due {
+	padding-left: 25px;
+	width: 500px;
+	height: 70px;
+	margin-top: -10px;
+	border: 0px solid black;
+}
+
+.days {
+	width: 100px;
+	height: 40px;
+	border: 0px solid black;
+	float: left;
+}
+
+.text2 {
+	width: 100px;
+	height: 30px;
+	border: 0px solid black;
+	float: left;
+	padding-top: 18px;
+}
+
+.member {
+	width: 100px;
+	height: 40px;
+	border: 0px solid black;
+	float: left;
+}
+
+.text3 {
+	width: 100px;
+	height: 30px;
+	border: 0px solid black;
+	float: left;
+	padding-top: 18px;
+}
+
+.comment {
+	width: 390px;
+	height: auto;
+	float: left;
+	margin-left: 20px;
+	border: 0px solid black;
+}
+
+.textarea {
+	width: 390px;
+}
+
+.like {
+	width: 35px;
+	height: 35px;
+	float: left;
+	margin-left: 15px;
+	border: 0px solid black;
+}
+
+.join {
+	width: 80px;
+	height: 35px;
+	float: left;
+	margin-top: 3px;
+	margin-left: 15px;
+	border: 0px solid black;
+}
+
+.social {
+	width: 600px;
+	height: 50px;
+	border: 0px solid black;
+}
+
+.btns {
+	padding-left: 20px;
+	width: 220px;
+	height: 30px;
+	border: 0px solid black;
+}
+
+.supportbtn {
+	width: 100px;
+	height: 33px;
+	border-radius: 20px;
+	background: #36a9c8;
+	color: white;
+	font: bold;
+	float: left;
+	padding-bottom: 7px;
+	border: 2px solid #e6e6e6;
+}
+
+.ignorebtn {
+	width: 93px;
+	height: 28px;
+	border-radius: 20px;
+	background: #36a9c8;
+	color: white;
+	font: bold;
+	float: left;
+	text-align: center;
+	margin-left: 7px;
+	border: 2px solid #e6e6e6;
+}
+
+.bottom_btn {
+	width: 500px;
+	height: 60px;
+	padding-left: 22px;
+	padding-top: 20px;
+	border: 0px solid black;
+}
+
+.invite {
+	width: 90px;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	height: 30px;
+	font-size: 18px;
+	font: bold;
+	cursor: pointer;
+	border: 2px solid white;
+	float: left;
+	background: #36a9c8;
+	border-radius: 14px;
+}
+
+.invite:hover {
+	background: #ef539d;
+}
+
+.upload {
+	margin-left: 10px;
+	width: 90px;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	height: 30px;
+	font-size: 18px;
+	font: bold;
+	cursor: pointer;
+	border: 2px solid white;
+	float: left;
+	background: #36a9c8;
+	border-radius: 14px;
+}
+
+.upload:hover {
+	background: #ef539d;
+}
+
+.show {
+	margin-left: 10px;
+	width: 90px;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	cursor: pointer; height : 30px;
+	font-size: 18px;
+	font: bold;
+	border: 2px solid white;
+	float: left;
+	background: #36a9c8;
+	border-radius: 14px;
+	height: 30px;
+}
+
+.show:hover {
+	background: #ef539d;
+}
+
+.meetuplink {
+	margin-left: 10px;
+	width: 90px;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	height: 30px;
+	font-size: 18px;
+	font: bold;
+	cursor: pointer; border : 2px solid white;
+	float: left;
+	background: #36a9c8;
+	border-radius: 14px;
+	border: 2px solid white;
+}
+
+.meetuplink:hover {
+	background: #ef539d;
+}

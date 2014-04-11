@@ -1,0 +1,102 @@
+.login_page
+{
+width:250px;
+height:auto;
+border: 2px solid #36a4c9;
+background-color:white;
+position: absolute;
+margin-top:80px;
+margin-left:470px;
+border-radius:10px;
+display: none;
+
+}
+.user_textbox {
+    background:url("/metalist/img/login_icon.PNG");
+    background-color:#e6e6e6;
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+    background-position:left;
+    padding-right: 20px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    padding-left: 20px !important;
+    float: left;
+    border:1px solid #e6e6e6;
+    text-align:center;
+    border-radius:10px;
+    height: 20px;
+    outline: none;
+    }
+    .pass_textbox {
+    background:url("/metalist/img/pass_icon.PNG");
+    border:1px solid #e6e6e6;
+    background-color:#e6e6e6;
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+    background-position:left;
+    padding-right: 20px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    padding-left:20px !important;
+    float: left;
+    text-align: center;
+    border-radius:10px;
+    height: 20px;
+    outline: none;
+    }
+    
+.login_page_bottum
+{
+
+width: 250px;
+height:50px;
+border-radius:8px;
+margin-top:9px;
+background-color: #36a4c9;
+}
+.forget
+{
+color: #36a4c9;
+text-decoration: none;
+}
+.forget:hover 
+{
+text-decoration: underline;
+}
+.log_btn
+{
+  width: 80px;
+  height: 30px;
+  border-radius:8px;
+  border:1px solid #e6e6e6;
+  margin-top:10px;
+  background-color:white;
+  color:#36a4c9;
+  font:bold;
+  font-size:16px;
+  margin-left:40px;
+}
+.rst_btn
+{
+  width: 80px;
+  height: 30px;
+  border-radius:8px;
+  border:1px solid #e6e6e6;
+  margin-top:10px;
+  background-color:white;
+  color:#36a4c9;
+  font:bold;
+  font-size:16px;
+}
+.remember
+{
+	
+	color:#36a4c9;
+	padding-left:0px;
+}
+.ch
+{
+	margin-left: 35px;
+	
+}

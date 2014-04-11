@@ -1,0 +1,182 @@
+html,body
+{
+margin:0px;
+padding: 0px;
+height: 100%;
+}
+
+.maindiv
+{
+
+ width:100%;
+ height:100%; 
+background-image: url("/metalist/img/back.png");
+
+}
+.header
+{
+
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  border-bottom:1px solid #36a4c9;
+}
+.logo
+{
+margin-left:100px;
+ width:166px;
+ height: 100px;
+ border: 0px solid black;
+ float: left;
+}
+.head
+{
+
+width:800px;
+height: 120px;
+margin-top:13px;
+margin-left:230px;
+float: left;
+}
+
+.login_page
+{
+    width: 398px;
+    height:auto;
+    margin-top:50px;
+    margin-left:510px;
+    border-radius:25px;
+    background:white;
+    border:3px solid #36a4c9; 
+}    
+.uper    
+{
+    width:393px;
+    height:50px;
+    margin-top:0px;
+    border-radius:20px;
+    border-bottom:1px solid  #36a4c9;
+    color: #36a4c9;
+    font: bold;
+}
+.user_textbox {
+    background:url("/metalist/img/login_icon.PNG");
+    background-color:#e6e6e6;
+    background-size:30px;
+    background-repeat:no-repeat;
+    background-position:left;
+    padding-right:0px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    padding-left: 5px !important;
+    float: left;
+    margin-left:20px;
+    border:1px solid #e6e6e6;
+    text-align:center;
+    border-radius:10px;
+    height:30px;
+    width:300px;
+    outline: none;
+    }
+    .pass_textbox {
+    background:url("/metalist/img/pass_icon.PNG");
+    background-color:#e6e6e6;
+    background-size:30px;
+    background-repeat:no-repeat;
+    background-position:left;
+    padding-right:0px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    padding-left: 5px !important;
+    float: left;
+    margin-left:20px;
+    border:1px solid #e6e6e6;
+    text-align:center;
+    border-radius:10px;
+    height:30px;
+    width:300px;
+    outline: none;
+    }
+    
+.forget
+{
+color: #36a4c9;
+text-decoration: none;
+font-size:18px;
+}
+.forget:hover 
+{
+text-decoration: underline;
+}
+.reg
+{
+color: #36a4c9;
+text-decoration: none;
+font-size:18px;
+}
+.reg:hover 
+{
+text-decoration: underline;
+}
+
+.bottom
+{
+  
+width:398px;
+height:60px;
+border-radius:20px;
+margin-top:-13px;
+background-color: #36a4c9;
+}
+.log_btn
+{
+  width:120px;
+  height:40px;
+  border-radius:8px;
+  border:1px solid #e6e6e6;
+  margin-top:10px;
+  background-color:white;
+  color:#36a4c9;
+  font:bold;
+  font-size:16px;
+  margin-left:75px;
+}
+.rst_btn
+{
+  width:120px;
+  height: 40px;
+  border-radius:8px;
+  border:1px solid #e6e6e6;
+  margin-top:10px;
+  margin-left:10px;
+  background-color:white;
+  color:#36a4c9;
+  font:bold;
+  font-size:16px;
+}
+ul li
+{
+ list-style:none; 
+}
+.remember
+{
+	
+	color:#36a4c9;
+	padding-left:0px;
+	font-size:20px;
+	margin-top: -30px;
+}
+.ch
+{
+	margin-left:110px;
+	
+}
+td
+{
+height:0px;
+}
+.errorMessage
+{
+    width: auto;
+    height: auto;	
+}

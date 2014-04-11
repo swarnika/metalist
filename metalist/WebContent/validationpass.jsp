@@ -1,0 +1,1 @@
+<p style="color: red;">This Email is available</p>

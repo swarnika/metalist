@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="login" extends="struts-default">
+
+		<global-exception-mappings>
+			<exception-mapping result="error"
+				exception="java.lang.NullPointerException"></exception-mapping>
+			<exception-mapping result="error"
+				exception="javax.mail.MessagingException"></exception-mapping>
+		</global-exception-mappings>
+		<action name="login" class="com.LoginAction">
+			<result name="success">/home.jsp</result>
+			<result name="error">/error.jsp</result>
+			<result name="error">/error1.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		<action name="slogin" class="com.LoginAction">
+			<result name="success">/home.jsp</result>
+			<result name="error">/error.jsp</result>
+			<result name="error">/error1.jsp</result>
+			<result name="input">/login.jsp</result>
+		</action>
+		<action name="fboauthcallback" class="com.FBOAuthCallback">
+			<result name="success">/home.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		<action name="fbsetup" class="com.FBOAuthCallback" method="setup">
+			<result name="success">/home.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+
+		<action name="register" class="com.RegisterAction">
+			<result name="success">/success2.jsp</result>
+			<result name="error">/error.jsp</result>
+			<result name="error">/error1.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		<action name="registration" class="com.Register">
+			<result name="success">/registeration.jsp</result>
+		</action>
+		<action name="register2" class="com.RegisterAction">
+			<result name="success">/success2.jsp</result>
+			<result name="error">/error.jsp</result>
+			<result name="input">/registeration.jsp</result>
+			<result name="error">/error1.jsp</result>
+		</action>
+		<action name="forget" class="com.ForgetAction">
+			<result name="success">/success.jsp</result>
+			<result name="error">/error.jsp</result>
+			<result name="error">/error1.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		<action name="forget1" class="com.ForgetAction">
+			<result name="success">/success.jsp</result>
+			<result name="error">/error.jsp</result>
+			<result name="error">/error1.jsp</result>
+			<result name="input">/pop.jsp</result>
+		</action>
+		<action name="confirmRegister" class="com.ConfirmRegister">
+			<result name="success">/login.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		<action name="changepass" class="com.ChangePasswordAction">
+			<result name="success">/success.jsp</result>
+			<result name="error">/error.jsp</result>
+			<result name="error">/error1.jsp</result>
+		</action>
+		<action name="logout" class="com.LogoutAction">
+			<result name="success">/index.jsp</result>
+		</action>
+
+		<action name="index">
+			<result>index.jsp</result>
+		</action>
+		<action name="imageDownload" class="com.FileDownloadAction">
+			<interceptor-ref name="fileUpload">
+				<param name="maximumSize">5048000000</param>
+				<param name="allowedTypes">text/plain</param>
+			</interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="success" type="stream">
+				<param name="contentType">${profileImageContentType}</param>
+				<param name="inputName">profileImage</param>
+				<param name="contentDisposition">filename="${profileImageFileName}"</param>
+				<param name="bufferSize">2048</param>
+			</result>
+			<result name="error">/index.jsp</result>
+		</action>
+
+	</package>
+</struts>
